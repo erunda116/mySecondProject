@@ -1,4 +1,4 @@
-var mql = window.matchMedia('all and (max-width: 480px)');
+var mql = window.matchMedia('all and (max-width: 736px)');
 if (mql.matches) {
    $('.meet-our-team-images').slick({
   infinite: true,
