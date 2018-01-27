@@ -1,0 +1,78 @@
+.some-fan-facts{
+	background: url('../img/some-fun-facts-bg.jpg'), rgba(6,32,51,0.8);
+	background-blend-mode: multiply; /* РАЗОБРАТЬСЯ С ЭТОЙ ХЕРНЕЙ*/
+	background-size: cover;
+	padding-bottom: 155px;
+}
+.some-fan-facts-elements{
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+}
+.some-fan-facts-elements-item{
+	width: 25%;
+	margin-bottom: 0px;
+}
+.some-fan-facts-elements-item-icon{
+	margin: 0 auto;
+	width: 130px;
+	height: 130px;
+	border: 2px solid rgba(255,255,255,0.4);
+	border-radius: 50%;
+	color: #ffffff;
+	text-align: center;
+	font-size: 40px;
+	line-height: 120px;
+}
+.some-fan-facts-elements-item__span{
+	display: block;
+	text-align: center;
+	color: #ffffff;
+	font-family: "Open Sans", sans-serif;
+	font-size: 60px;
+	font-weight: 700;
+	padding-top: 50px;
+}
+.some-fan-facts-elements-item__p{
+	text-align: center;
+	color: #ffffff;
+	font-family: "Open Sans";
+	font-size: 18px;
+	font-weight: 400;
+	text-transform: uppercase;
+}
+/*МЕДИА*/
+@media all and (max-width: 480px){
+	.some-fan-facts{
+	padding-bottom: 135px;
+	width: 90%;
+	margin: 0 auto;
+}
+	.some-fan-facts-elements-item-icon{
+		width: 80px;
+		height: 80px;
+		font-size: 26px;
+		line-height: 80px;
+	}
+	.some-fan-facts-elements-item__span{
+		font-size: 35px;
+		font-weight: 300;
+		padding-top: 20px;
+	}
+	.some-fan-facts-elements-item__p{
+		font-size: 10px;
+		font-weight: 300;
+	}
+	.some-fan-facts{
+		padding-bottom: 40px;
+	}
+	.some-fan-facts-elements{
+	flex-wrap: wrap;
+	width: 70%;
+	margin: 0 auto;
+}
+.some-fan-facts-elements-item{
+	width: 50%;
+	margin-bottom: 20px;
+}
+}

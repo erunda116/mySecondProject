@@ -1,0 +1,138 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	transition: background-color 0.3s; /*разобраться с анимацией при наведении*/
+}
+.header, .features,
+.works, .meet-our-team, .some-fan-facts,
+.lets-discuss, .map, .footer{
+	max-width: 1600px;
+} 
+body{
+	width: 100%;
+	background: #fff;
+}
+.wrapper{
+	max-width: 1150px;
+	margin: 0 auto;
+}
+.header-menu__a, .works-nav__a, .footer-elements-third__a{
+	text-decoration: none;
+}
+.features__h3, .works__h3, .meet-our-team__h3,
+.some-fan-facts__h3, .lets-discuss__h3{
+	font-family: 'Open Sans', sans-serif;
+	color: #0eb493;
+	font-size: 28px;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: -0.56px;
+	margin: 0 auto; /*ИСПРАВИТЬ*/
+	text-align: center;
+	padding-top: 75px;
+}
+.features-heart__p, .works-heart__p, 
+.some-fan-facts-heart__p, .meet-our-team-heart__p, 
+.lets-discuss-heart__p{
+	width: 18px;
+	text-align: center;
+	color: rgba(0,0,0,0.2);
+	font-size: 28px;
+	font-weight: 700;
+	margin: 0 auto;
+	position: relative;
+}
+.features-heart__p::after, .works-heart__p::after, 
+.some-fan-facts-heart__p::after, .meet-our-team-heart__p::after, 
+.lets-discuss-heart__p::after{
+	content: ' ';
+	display: block;
+	width: 90px;
+	height: 1px;
+	background: rgba(0,0,0,0.2);
+	position: absolute;
+	top: 20px;
+	left: 30px;
+}
+.features-heart__p::before, .works-heart__p::before, 
+.some-fan-facts-heart__p::before, .meet-our-team-heart__p::before, 
+.lets-discuss-heart__p::before{
+	content: ' ';
+	display: block;
+	width: 90px;
+	height: 1px;
+	background: rgba(0,0,0,0.2);
+	position: absolute;
+	top: 20px;
+	left: -100px;
+}
+.header-menu__h2, .footer-elements-first__h2{
+	font-family: 'Pacifico', cursive;
+	color: #ffffff;
+	font-size: 28px;
+	font-weight: 400;
+	letter-spacing: 1.4px;
+}
+.some-fan-facts-heart__p{
+	color: #fff;
+}
+.some-fan-facts-heart__p::after, .some-fan-facts-heart__p::before{
+	background: rgba(255,255,255,0.5);
+}
+.works__p, .meet-our-team__p, 
+.lets-discuss__p{
+	width: 90%;
+	opacity: 0.8;
+	color: #062033;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 24px;
+	text-align: center;
+	margin: 0 auto;/* ИСПРАВИТЬ и ДОБАВИТЬ WIDTH*/
+}
+.works, .meet-our-team, .lets-discuss{
+	background-color: #fff;
+}
+/*media queries*/
+/*@media all and (max-width: 1690px) { ...}
+@media all and (max-width: 1280px) { ...}
+@media all and (max-width: 980px) { ... }
+@media all and (max-width: 736px) { ... }
+@media all and (max-width: 480px) { ... }
+*/
+@media all and (max-width: 480px) {
+	.features__h3, .works__h3, .meet-our-team__h3,
+	.some-fan-facts__h3, .lets-discuss__h3{
+	font-size: 20px;
+	padding-top: 35px;
+}
+	.features-heart__p, .works-heart__p, 
+	.some-fan-facts-heart__p, .meet-our-team-heart__p, 
+	.lets-discuss-heart__p{
+	font-size: 16px;
+}
+	.features-heart__p::after, .works-heart__p::after, 
+	.some-fan-facts-heart__p::after, .meet-our-team-heart__p::after, 
+	.lets-discuss-heart__p::after{
+	width: 45px;
+	top: 10px;
+	left: 25px;
+}
+	.features-heart__p::before, .works-heart__p::before, 
+	.some-fan-facts-heart__p::before, .meet-our-team-heart__p::before, 
+	.lets-discuss-heart__p::before{
+	width: 45px;
+	top: 10px;
+	left: -50px;
+}
+	.header-menu__h2, .footer-elements-first__h2{
+	font-size: 20px;
+}
+	.works__p, .meet-our-team__p, 
+	.lets-discuss__p{
+	font-size: 12px;
+	line-height: 14px;
+}
+	}
