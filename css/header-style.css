@@ -148,6 +148,9 @@
 	.header-icon__a:hover{
 		opacity: 1;
 	}
+	.header-icon__a:focus{
+		outline: none;
+	}
 /*ГАМБУРГЕР*/
 #toggle{
 	display: none;
@@ -157,11 +160,7 @@
 }
 /*media queries*/
 @media all and (max-width: 480px) {
-	.header-menu__logo{
-	float: none;
-	margin: 0 auto;
-	width: 50%;
-	}
+	
 	.header-menu-nav{
 		float: none;
 		margin: 0 auto;
@@ -234,50 +233,5 @@
 }
 
 /* ТЕКСТ ПО ЦЕНТРУ*/
-.header-text{
-	width: 300px; 
-	bottom: 80px; 
-}
-.header-slider__h1{
-	font-size: 20px; 
-}
 
-.header-slider__p_size_large{
-	font-size: 14px; /**/
-}
-.header-slider__p_size_small{
-	font-size: 10px; /**/
-	font-weight: 100;
-	position: relative;
-}
-.header-slider__p_size_small:after{
-	width: 10px; 
-	top: 8px;
-	left: 60px;
-}
-.header-slider__p_size_small:before{
-	width: 10px; 
-	top: 8px;
-	left: 230px;
-}
-.header-icon{
-	font-size: 12px;
-	letter-spacing: 5px;
-	text-align: center;
-	position: absolute;
-	bottom: 30px;
-	left: 42%; /*шляпа полная*/
-}
-.header-icon__a{
-	color: #ffffff;
-	opacity: 0.3;
-	transition: all 0.3s;
-}
-..header-icon__a:active{
-	outline: none;
-	border: 0;
-}
-.header-icon__a:hover{
-	opacity: 1;
-}
 }
