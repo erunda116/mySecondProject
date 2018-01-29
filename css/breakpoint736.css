@@ -22,13 +22,13 @@
 	}
 	.header-menu__ul{
 		display: none;
-		float: right;
+		float: left;
 		width: 20%;
 	}
 	.header-menu__li{
 		display: block;
-		padding: 5px 10px;
-		text-align: right;
+		padding: 5px 20px;
+		text-align: left;
 	}
 	#toggle {
 	  display: block; /*ПОСМОТРЕТЬ ЧЕ КАК*/
@@ -138,6 +138,46 @@
 		padding: 5px 10px;		
 		font-size: 14px;
 	}
+	/*MEET-OUR-TEAM*/
+		.meet-our-team-images-item_hover__span{
+		display: block;
+			width: 85%;
+	  font-size: 26px;
+	  font-family: "OpenSans", sans-serif;
+	  color: #fff;
+	  font-weight: 700;
+	  line-height: 30px;
+	  text-align: center;
+	  margin: 100px auto;
+	}
+	.meet-our-team-images-item_hover__p{
+		display: block;
+		width: 85%;
+		margin: 0 auto;
+		font-size: 20px;
+	  font-family: "OpenSans", sans-serif;
+	  color: #fff;
+	  font-weight: 100;
+	  line-height: 25px;
+	  text-align: center;
+	}
+	.meet-our-team-images-item_hover-icon-wrap{
+		display: flex;
+		width: 50%;
+		margin: 100px auto 0px;
+	}
+	.meet-our-team-images-item_hover__icon{
+	  background-color: rgba(0, 0, 0,0.3);
+	  width: 50px;
+	  height: 50px;
+	  text-align: center;
+	  margin: 0 auto;
+	  color: #fff;
+		font-size: 30px;
+		line-height: 60px;
+		position: relative;
+	}
+
 	/*LETS DISCUSS*/
 	.lets-discuss-elements{
 		flex-wrap: wrap;
@@ -152,6 +192,56 @@
 	}
 	.lets-discuss-elements-item-form{
 		margin-right: 0px;
+	}
+	/*FOOTER*/
+	.footer-elements-item{
+		width: 40%;
+		margin: 0px auto; 
+	}
+}
+@media all and (max-width: 600px){
+	.works-nav{
+		width: 90%;
+		margin: 10px auto 20px;
+	}
+	.works-nav__a{
+		padding: 5px 10px;		
+		font-size: 12px;
+	}
+	.works-images{
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+		margin: 0 auto;
+	}
+	.works-images-item{
+		width: 90%;
+		margin: 0 auto;
+	}
+	.works-images-item_hover-div-eye{
+		margin: 0 auto 30px;
+		width: 50px;
+		height: 50px;
+		font-size: 25px;
+		line-height: 50px;
+	}
+		.works-images-item_hover__p{
+	  font-size: 18px;
+	  font-family: "OpenSans", sans-serif;
+	  color: #fff;
+	  font-weight: 700;
+	  line-height: 25px;
+	  text-align: center;
+	}
+	.works-images-item_hover__span{
+		display: block;
+		font-size: 14px;
+	  font-family: "OpenSans", sans-serif;
+	  color: #fff;
+	  font-weight: 300;
+	  line-height: 25px;
+	  text-align: center;
 	}
 }
 
