@@ -226,22 +226,11 @@
 		font-size: 25px;
 		line-height: 50px;
 	}
-		.works-images-item_hover__p{
-	  font-size: 18px;
-	  font-family: "OpenSans", sans-serif;
-	  color: #fff;
-	  font-weight: 700;
-	  line-height: 25px;
-	  text-align: center;
+	.works-images-item_hover__p{
+		font-size: 20px;
 	}
 	.works-images-item_hover__span{
-		display: block;
-		font-size: 14px;
-	  font-family: "OpenSans", sans-serif;
-	  color: #fff;
-	  font-weight: 300;
-	  line-height: 25px;
-	  text-align: center;
+		font-size: 16px;
 	}
 }
 

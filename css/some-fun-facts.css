@@ -41,38 +41,3 @@
 	font-weight: 400;
 	text-transform: uppercase;
 }
-/*МЕДИА*/
-@media all and (max-width: 480px){
-	.some-fan-facts{
-	padding-bottom: 135px;
-	width: 90%;
-	margin: 0 auto;
-}
-	.some-fan-facts-elements-item-icon{
-		width: 80px;
-		height: 80px;
-		font-size: 26px;
-		line-height: 80px;
-	}
-	.some-fan-facts-elements-item__span{
-		font-size: 35px;
-		font-weight: 300;
-		padding-top: 20px;
-	}
-	.some-fan-facts-elements-item__p{
-		font-size: 10px;
-		font-weight: 300;
-	}
-	.some-fan-facts{
-		padding-bottom: 40px;
-	}
-	.some-fan-facts-elements{
-	flex-wrap: wrap;
-	width: 70%;
-	margin: 0 auto;
-}
-.some-fan-facts-elements-item{
-	width: 50%;
-	margin-bottom: 20px;
-}
-}

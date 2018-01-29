@@ -83,6 +83,9 @@
 	align-items: center;
 	opacity: 0.9;
 }
+.works-images-item:focus .works-images-item_hover{
+	outline: none;
+}
 .works-images-item_hover-div-eye{
 	margin: 0 auto 20px;
 	width: 40px;
@@ -95,25 +98,3 @@
 	line-height: 40px;
 }
 /*ИЗОБРАЖЕНИЯ МЕНЬШЕ НАВЕДЕНИЯ*/
-/*MEDIA*/
-@media all and (max-width: 480px){
-	.works-nav{
-		width: 90%;
-		margin: 10px auto 20px;
-	}
-	.works-nav__a{
-		padding: 5px 10px;		
-		font-size: 12px;
-	}
-	.works-images{
-	width: 100%;
-	display: flex;
-	flex-direction: column;
-	flex-wrap: wrap;
-	margin: 0 auto;
-}
-.works-images-item{
-	width: 90%;
-	margin: 0 auto;
-}
-}

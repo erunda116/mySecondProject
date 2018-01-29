@@ -102,37 +102,3 @@ body{
 @media all and (max-width: 736px) { ... }
 @media all and (max-width: 480px) { ... }
 */
-@media all and (max-width: 480px) {
-	.features__h3, .works__h3, .meet-our-team__h3,
-	.some-fan-facts__h3, .lets-discuss__h3{
-	font-size: 20px;
-	padding-top: 35px;
-}
-	.features-heart__p, .works-heart__p, 
-	.some-fan-facts-heart__p, .meet-our-team-heart__p, 
-	.lets-discuss-heart__p{
-	font-size: 16px;
-}
-	.features-heart__p::after, .works-heart__p::after, 
-	.some-fan-facts-heart__p::after, .meet-our-team-heart__p::after, 
-	.lets-discuss-heart__p::after{
-	width: 45px;
-	top: 10px;
-	left: 25px;
-}
-	.features-heart__p::before, .works-heart__p::before, 
-	.some-fan-facts-heart__p::before, .meet-our-team-heart__p::before, 
-	.lets-discuss-heart__p::before{
-	width: 45px;
-	top: 10px;
-	left: -50px;
-}
-	.header-menu__h2, .footer-elements-first__h2{
-	font-size: 20px;
-}
-	.works__p, .meet-our-team__p, 
-	.lets-discuss__p{
-	font-size: 12px;
-	line-height: 14px;
-}
-	}

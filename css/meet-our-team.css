@@ -107,36 +107,7 @@
 	right: 0;
 	bottom: 50px;
 }
-/*MEDIA*/
-@media all and (max-width: 480px){
-	.meet-our-team__p{
-	width: 90%;
-	padding-bottom: 50px;
+.meet-our-team-images-item__a:focus{
+	outline: none;
 }
-.meet-our-team-images-item img{
-	filter: grayscale(100%);
-	width: 90%;
-	margin: 0 auto;
-}
-.meet-our-team-images-item{
-	margin-right: 0px;
-}
-.meet-our-team{
-	padding-bottom: 70px;
-}
-.meet-our-team-images-item_hover{
-	left: 20px;
-	right: 20px;
-}
-.meet-our-team-images-item_hover-icon-wrap{
-	margin: 100px auto 0px;
-}
-.meet-our-team-images-item_hover__span{
-	margin: 50px auto 100px;
-  font-size: 26px;
-}
-.meet-our-team-images-item_hover__p{
-	width: 65%;
-	font-size: 20px;
-}
-}
+

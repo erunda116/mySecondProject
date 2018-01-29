@@ -66,6 +66,9 @@
 .header-slider-item{
 	position: relative;
 }
+.header-slider-item:focus{
+	outline: none;
+}
 .header-text{
 	width: 500px;
 	margin: 0 auto;

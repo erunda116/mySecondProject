@@ -36,6 +36,7 @@
 	background-color: transparent;
 	border-radius: 5px;
 	outline: none;
+	padding: 0px 30px 0px 10px;
 }
 .footer-elements-second__submit{
 	width: 25px;
@@ -117,50 +118,16 @@
 .footer-elements-second__p{
 	padding-top: 20px;
 }
-/*Медиа*/
-@media all and (max-width: 480px){
-	.footer{
-	padding-top: 25px;
-	padding-bottom: 50px;
+/*ФОРМА*/
+#footer-form .footer-elements-second__search:focus{
+	padding: 0px 30px 0px 10px;
 }
-	.footer-elements{
-		width: 100%;
-		flex-direction: column;
-		margin: 0 auto;
-	}
-	.footer-elements-item{
-		width: 45%;
-		margin: 0px auto; 
-	}
-	.footer-elements-first__p, .footer-elements-second__p{
-	text-align: center;
-}
-	.footer-elements-first__h2{
-		text-align: center;
-}
-.footer-elements-second__span, .footer-elements-third__span{
-	display: block;
-	text-align: center;
-}
-.footer-elements-second__search{
-	width: 100%;
-}
-.footer-elements-second__submit{
-	right: 10px;
-}
-.footer-elements-third__li{
-	text-align: center;
-}
-.footer-elements-four-top{
-	margin-top: 30px;
-	padding-left: 15px;
-	border-top: 2px solid rgba(24, 37, 54, 0.3);
-	border-left: none;
-}
-.footer-elements-four-bottom{
-	padding-top: 5px;
-	display: block;
-	text-align: center;
-}
-}
+/*отключаем крестик*/
+input[type=text]::-ms-clear {  display: none; width : 0; height: 0; }
+input[type=text]::-ms-reveal {  display: none; width : 0; height: 0; }
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration { display: none; }
+
 

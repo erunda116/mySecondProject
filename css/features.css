@@ -54,31 +54,9 @@
 	width: 85%;
 	float: right;
 }
+.features-slider-item:focus,
+.features-slider-item-text__p:focus{
+	outline: none;
+}
 /*ВСЕ ОЧЕНЬ КРИВО*/
 /*МЕДИА*/
-@media all and (max-width: 480px){
-	.features__h3{
-		padding-top: 35px; 
-	}
-	.features-heart__p{
-		padding-bottom: 20px;
-	}
-	.features-slider{
-	width: 100%;
-	margin: 0 auto;
-	display: flex;
-	justify-content: space-between;
-}
-.features-slider-item-icon-boarder{
-	margin-left: 40px;
-}
-.features-slider-item-text{	
-	width: 75%;
-}
-.features-slider-item-text__p{
-	width: 90%;
-}
-.features-slider-item-icon{
-	width: 25%;
-}
-}
